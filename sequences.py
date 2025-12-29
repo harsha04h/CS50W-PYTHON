@@ -19,3 +19,15 @@ print(s)
 s.remove(2)
 print(f"after removing:{s}")
 print(f"The set has {len(s)} elements")
+
+#Dictonary
+houses = {
+    "harry":"Gryffindor",
+    "Draco":"Slytherin",
+    "ron":"Gryffindor"
+}
+houses["Luna"]="Ravenclaw"
+print(houses["harry"])
+houses["Luna"]="Ravenclaw"
+print(houses)
+print(houses["Luna"])
