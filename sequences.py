@@ -28,6 +28,7 @@ houses = {
 }
 houses["Luna"]="Ravenclaw"
 print(houses["harry"])
-houses["Luna"]="Ravenclaw"
+
+houses["Luna"]="Ravenclaw" #add value to the dictionary
 print(houses)
 print(houses["Luna"])
